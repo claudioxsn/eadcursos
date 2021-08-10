@@ -84,7 +84,7 @@ Route::get('/aluno/curso/aula/transcricoes/{idAula}/download', 'App\Http\Control
 Route::get('/aluno/curso/', 'App\Http\Controllers\AlunoController@meusCursos')->name('aluno.curso.meusCursos')->middleware('auth:aluno'); 
 
 Route::get('/whatsapp', function () {
-    return redirect('http://wa.me/5518981924358');
+    return redirect('http://wa.me/');
 })->name('whatsapp');
 
 
